@@ -1,3 +1,6 @@
 #icono{
     width: 50px;
 }
+.collapse{
+    justify-content: flex-end;
+}
