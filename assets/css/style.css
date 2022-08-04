@@ -4,6 +4,18 @@
 .collapse{
     justify-content: flex-end;
 }
+.item img{
+    height: 800px;
+    width: 400px;
+}
+.card-body{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #0080CA;
+}
+
 /* ---------- CONTACTO ---------- */
 .contact-item {position: relative; padding-left: 0; color: #666666; -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);}
 .contact-item a {color: #0080CA; text-decoration: none;}
