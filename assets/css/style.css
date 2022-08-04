@@ -19,7 +19,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 background: #0e6e16;
 }
-
 /* ---------- CONTACTO ---------- */
 .contact-item {position: relative; padding-left: 0; color: #666666; -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);}
 .contact-item a {color: #0080CA; text-decoration: none;}
@@ -57,19 +56,3 @@ blockquote p {margin-bottom: 1em; font-size: 20px; font-weight: 300; font-style:
 .france {color: #0080CA;}
 .marino {color: #0A0789;}
 .margen {padding-left: 40px;}
-
-/* ---------- CONTACTO ---------- */
-.contact-item {position: relative; padding-left: 0; color: #666666; -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);}
-.contact-item a {color: #0080CA; text-decoration: none;}
-.contact-item a:hover {color: #0A0789; text-decoration: none;}
-.ci-title {margin-bottom: 1px; color: #0080CA; font-size: 16px; font-family: 'Nexa Bold', sans-serif; font-weight: 700; text-transform: none; letter-spacing: 0;}
-.ci-text {font-size: 16px; font-weight: 300; font-family: 'Nexa Light', sans-serif;}
-.form input[type="text"] {display: inline-block; height: 27px; vertical-align: middle; font-size: 16px !important; font-weight: 300; text-transform:none; letter-spacing:0px; color:#666666; border:1px solid rgba(0,128,202, 1); background-color: rgba(255,255,255, 1); padding-left:7px; padding-right:7px; border-radius: none !important; box-shadow:none; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; -webkit-transition:all .2s cubic-bezier(0.000,0.000,0.580,1.000); -moz-transition:all .2s cubic-bezier(0.000,0.000,0.580,1.000); -o-transition:all .2s cubic-bezier(0.000,0.000,0.580,1.000); -ms-transition:all .2s cubic-bezier(0.000,0.000,0.580,1.000); transition:all .2s cubic-bezier(0.000,0.000,0.580,1.000);}
-.form input[type="text"]:hover {border-color: rgba(10,7,136, 1);}
-.form input[type="text"]:focus {color: #0080CA; border-color: rgba(0,128,202, 1); box-shadow: 0 0 3px rgba(0,128,202, .55); outline: none;}
-.form textarea {font-size: 16px; font-weight: 300; text-transform: none !important; letter-spacing: 0; color: #666666; border-color: rgba(0,128,202, 1); background-color: rgba(255,255,255, 1); outline: none; box-shadow: none; border-radius: none !important;}
-.form textarea:hover {border-color: rgba(10,7,136, 1);}
-.form textarea:focus {color: #0080CA; border-color: rgba(0,128,202, 1); box-shadow: 0 0 3px rgba(0,128,202, .55);}
-.form .form-group {margin-bottom: 10px;}
-.form-tip {font-size: 14px; color: #666666; line-height: 16px;}
-.form-tip .fa {font-size: 16px; line-height: 10px; color: #0080CA;}
