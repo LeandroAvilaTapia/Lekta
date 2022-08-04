@@ -1,3 +1,7 @@
+@font-face {font-family: 'Nexa Bold'; src: url('nexa/Nexa Bold.woff') format('woff'), url('nexa/Nexa Bold.ttf') format('truetype'); font-style: normal; font-weight: 700;}
+@font-face {font-family: 'Nexa Light'; src: url('nexa/Nexa Light.woff') format('woff'), url('nexa/Nexa Light.ttf') format('truetype'); font-style: normal; font-weight: 300;}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@300&display=swap');
 #icono{
     width: 50px;
 }
@@ -13,7 +17,7 @@ position: absolute;
 top: 80%;
 left: 50%;
 transform: translate(-50%, -50%);
-background: #0080CA;
+background: #0e6e16;
 }
 
 /* ---------- CONTACTO ---------- */
@@ -32,10 +36,14 @@ background: #0080CA;
 .form-tip {font-size: 14px; color: #666666; line-height: 16px;}
 .form-tip .fa {font-size: 16px; line-height: 10px; color: #0080CA;}
 
+/* ---------- TITULOS ---------- */
+h4 {line-height: 1.6; font-weight: 700; font-size: 18px; color: #FFFFFF;font-family: 'Raleway', sans-serif;margin-top: 0.3rem;}
+
+
 /* ---------- FONDO TITULOS ---------- */
 .smalli {width: 100%;display: block;position: relative;overflow: hidden;box-sizing: border-box;}
 .bg-light-blue {background-color: #3377FF;color: #FFFFFF;}
-.bg-dark-blue {background-color: #2929A3; color: #FFFFFF;}
+.bg-dark-blue {background-color: #29a360; color: #FFFFFF;}
 
 /* ---------- TIPOGRAFÃA ---------- */
 p {margin: 0 0 2em 0;}
