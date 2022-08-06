@@ -1,319 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lekta Obras</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="./assets/css/style.css" type="text/css" rel="stylesheet" >
+    <!--      Boostrap      -->
+    <link      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"      rel="stylesheet"      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"      crossorigin="anonymous"    />
+    <link rel="stylesheet" href="./estilos.css" />
     <!-- 1. Owl Carousel Min css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- 2. Owl Carousel Theme Min.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   </head>
-<body>
+  <body>
+    <!--      Navbar      -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            <img src="./assets/img/icono lekta.png" alt="iconolekta" id="icono">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">EMPRESA</a>
-              <a class="nav-link" href="#">OBRAS EJECUTADAS</a>
-              <a class="nav-link" href="#">OBRAS EN EJECUCIÓN Y EN PROYECTADA</a>
-              <a class="nav-link" href="#">CONTACTO</a>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/icono lekta.png" alt="iconolekta" id="icono" width="30px"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#empresa">EMPRESA</a>
+            <a class="nav-link" href="#ejecutadas">OBRAS EJECUTADAS</a>
+            <a class="nav-link" href="#futuro">OBRAS EN EJECUCIÓN Y EN PROYECTO</a>
+            <a class="nav-link" href="#">CONTACTO</a>
           </div>
         </div>
-      </nav>
-
-<!-- ........................ EMPRESA SECTION CONTENT ........................ -->
-<section class="smalli bg-light-blue titular" id="empresa">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-15 pt-30">EMPRESA</h1>
       </div>
+    </nav>
+
+    <!-- ........................ VIDEO HOME CONTENT ........................ -->
+<section class="home-section bg-pattern-over" id="home">
+  <div class="container video-full-height">
+    <video src="./assets/video/videofondo1.mp4"></video>
+    <div class="home-content">
+      <div class="home-text">
+        <h1 class="hs-line-15 white mb-50 mb-xs-30">CONSTRUIMOS CALIDAD DE VIDA</h1>
+        <div class="">
+          <a href="#empresa" id="secc6" class="btn btn-mod btn-border-w btn-large btn-round">BIENVENIDOS A <span class="">SIMONETTI</span> CONSTRUCTORA</a>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <a href="#empresa" class="scroll-down" id="secc7"><i class="fa fa-angle-down scroll-down-icon"></i></a>
     </div>
   </div>
 </section>
-<section class="smalli fondo_seccion pb-50 pb-sm-20">
-  <div class="container relative">
-    <div class="row">
-      <div class="col-md-4 pt-40">
-        <blockquote>
-          <p class="france">Simonetti S.R.L. es una empresa familiar fundada el 2 de Junio de 1965 por JUAN SIMONETTI, un inmigrante italiano que apostó a nuestro país para desarrollarse.<br>La compañía comenzó su actividad en Capital Federal, con obras privadas y públicas para diversos organismos del Estado. En esta época, Simonetti SRL se posicionó fuertemente en la actividad construyendo escuelas, hospitales, entidades bancarias, edificios de departamentos, etc.<br>En la actualidad, la firma desarrolla su actividad en el Partido de Quilmes junto a otras empresas desarrolladoras dedicándose a la construcción de viviendas en altura y unifamiliares.</p>
-        </blockquote>
-      </div>
-      <div class="col-md-8 pt-40">
-        <h4 class="section-title font-alt align-left france mt-0 pt-0">INTEGRANTES</h4>
-        <p class="text">Juan Simonetti no sólo desarrolló exitosamente su empresa, sino que además se interesó en formar a sus descendientes para que lo sucedan en la dirección de la empresa familiar.</p>
-        <ul>
-          <li>Ing. Civil Norberto T. Simonetti: Socio Gerente</li>
-          <li>Arq. Teresa Simonetti: Socia Gerente</li>
-          <li>Ing. Civil Rodrigo T. Simonetti</li>
-        </ul>
-        <p class="text">Junto a un profesional equipo dirigen la compañía posicionándola en el mercado como un referente de seriedad y confianza.</p>
-        <h4 class="section-title font-alt align-left france">TIPOLOGÍA DE CONSTRUCCIÓN</h4>
-        <p class="text">Actualmente, la empresa se dedica a la construcción de viviendas multifamiliares y unifamiliares en el Partido de Quilmes. Para alcanzar resultados exitosos trabaja junto a otras firmas desarrolladoras y estudios de arquitectura de excelente reconocimiento en la zona.</p>
-        <h4 class="section-title font-alt align-left france">DESARROLLADORAS</h4>
-        <p class="text">Empresas desarrolladoras que han trabajando junto a Simonetti SRL durante las últimas tres décadas en la ejecución de decenas de edificios con más de 700 viviendas:</p>
+
+
+    <!-- ........................ EMPRESA SECTION CONTENT ........................ -->
+    <section class="smalli bg-light-blue titular" id="empresa">
+      <div class="relative container align-left">
         <div class="row">
-          <div class="col-xs-6 text strong france margen textLi">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> ALCOAM S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> BAMERIS S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> CERRI S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> FECOAM S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> SEQUIPE S.A.<br>
-          </div>
-          <div class="col-xs-6 text strong france textLi">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> SICOAM S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> SILVER BUILDING S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> SIMONETTI E HIJOS S.A.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> SIMONETTI S.R.L.<br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i> TERRAZAS S.R.L.<br>
+          <div class="col-md-12">
+            <h1 class="hs-line-15 pt-30">EMPRESA</h1>
           </div>
         </div>
-        <h4 class="section-title font-alt align-left france mt-30">CONSTRUCCIONES</h4>
-        <p class="text">La Constructora cuenta con más de 30 edificios en altura distribuidos en la zona de Quilmes y Bernal desarrollados por las empresas arriba detalladas.<br>En la sección <strong>Obras Ejecutadas</strong> realizamos un breve detalle y raconto de las mismas identificando las empresas desarrolladoras, la tipología y cantidad de unidades construidas.</p>
-         </div>
-  </div>
-</div>
-</section>
-<!-- ........................ PROYECTOS EJECUTADAS SECTION CONTENT ........................ -->
-<section class="smalli bg-light-blue titular" id="futuro">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-15 pt-30">OBRAS EJECUTADAS</h1>
       </div>
-    </div>
-  </div>
-</section>
-<section class="smalli bg-dark-blue subtitular">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-4 mb-0 pt-0">LISTADO DE OBRAS</h1>
+    </section>
+    <section class="smalli fondo_seccion pb-50 pb-sm-20">
+      <div class="container relative">
+        <div class="row">
+          <div class="col-md-4 pt-40">
+            <blockquote>
+              <p class="france">
+                Simonetti S.R.L. es una empresa familiar fundada el 2 de Junio
+                de 1965 por JUAN SIMONETTI, un inmigrante italiano que apostó a
+                nuestro país para desarrollarse.<br />La compañía comenzó su
+                actividad en Capital Federal, con obras privadas y públicas para
+                diversos organismos del Estado. En esta época, Simonetti SRL se
+                posicionó fuertemente en la actividad construyendo escuelas,
+                hospitales, entidades bancarias, edificios de departamentos,
+                etc.<br />En la actualidad, la firma desarrolla su actividad en
+                el Partido de Quilmes junto a otras empresas desarrolladoras
+                dedicándose a la construcción de viviendas en altura y
+                unifamiliares.
+              </p>
+            </blockquote>
+          </div>
+          <div class="col-md-8 pt-40">
+            <h4 class="section-title font-alt align-left france mt-0 pt-0">
+              INTEGRANTES
+            </h4>
+            <p class="text">
+              Juan Simonetti no sólo desarrolló exitosamente su empresa, sino
+              que además se interesó en formar a sus descendientes para que lo
+              sucedan en la dirección de la empresa familiar.
+            </p>
+            <ul>
+              <li>Ing. Civil Norberto T. Simonetti: Socio Gerente</li>
+              <li>Arq. Teresa Simonetti: Socia Gerente</li>
+              <li>Ing. Civil Rodrigo T. Simonetti</li>
+            </ul>
+            <p class="text">
+              Junto a un profesional equipo dirigen la compañía posicionándola
+              en el mercado como un referente de seriedad y confianza.
+            </p>
+            <h4 class="section-title font-alt align-left france">
+              TIPOLOGÍA DE CONSTRUCCIÓN
+            </h4>
+            <p class="text">
+              Actualmente, la empresa se dedica a la construcción de viviendas
+              multifamiliares y unifamiliares en el Partido de Quilmes. Para
+              alcanzar resultados exitosos trabaja junto a otras firmas
+              desarrolladoras y estudios de arquitectura de excelente
+              reconocimiento en la zona.
+            </p>
+            <h4 class="section-title font-alt align-left france">
+              DESARROLLADORAS
+            </h4>
+            <p class="text">
+              Empresas desarrolladoras que han trabajando junto a Simonetti SRL
+              durante las últimas tres décadas en la ejecución de decenas de
+              edificios con más de 700 viviendas:
+            </p>
+            <div class="row">
+              <div class="col-xs-6 text strong france margen textLi">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> ALCOAM S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> BAMERIS S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> CERRI S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> FECOAM S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> SEQUIPE S.A.<br />
+              </div>
+              <div class="col-xs-6 text strong france textLi">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> SICOAM S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> SILVER BUILDING S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> SIMONETTI E HIJOS S.A.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> SIMONETTI S.R.L.<br />
+                <i class="fa fa-chevron-right" aria-hidden="true"></i> TERRAZAS S.R.L.<br />
+              </div>
+            </div>
+            <h4 class="section-title font-alt align-left france mt-30">
+              CONSTRUCCIONES
+            </h4>
+            <p class="text">
+              La Constructora cuenta con más de 30 edificios en altura
+              distribuidos en la zona de Quilmes y Bernal desarrollados por las
+              empresas arriba detalladas.<br />En la sección
+              <strong>Obras Ejecutadas</strong> realizamos un breve detalle y
+              raconto de las mismas identificando las empresas desarrolladoras,
+              la tipología y cantidad de unidades construidas.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- CAROUSEL PROYECTOS EJECUTADAS -->
-<section>
-  <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="owl-carousel owl-theme">
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/1.jfif" alt="1" class="card-img-top">
-              <div class="card-body">
+    </section>
+
+    <!-- ........................ PROYECTOS EJECUTADAS SECTION CONTENT ........................ -->
+    <section class="smalli bg-light-blue titular" id="ejecutadas">
+      <div class="relative container align-left">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="hs-line-15 pt-30">OBRAS EJECUTADAS</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="smalli bg-dark-blue subtitular">
+      <div class="relative container align-left">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="hs-line-4 mb-0 pt-0">LISTADO DE OBRAS</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ........................ CAROUSEL PROYECTOS EJECUTADAS ........................ -->
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="owl-carousel owl-theme">
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/1.jfif" alt="1" class="card-img-top" />
+                <div class="card-body">
                   <h4>Whirpool</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/2.jfif" alt="2" class="card-img-top">
-              <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/2.jfif" alt="2" class="card-img-top" />
+                <div class="card-body">
                   <h4>2</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/3.jfif" alt="3" class="card-img-top">
-              <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/3.jfif" alt="3" class="card-img-top" />
+                <div class="card-body">
                   <h4>3</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/4.jfif" alt="5" class="card-img-top">
-              <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/4.jfif" alt="5" class="card-img-top" />
+                <div class="card-body">
                   <h4>4</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/5.jfif" alt="5" class="card-img-top">
-              <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/5.jfif" alt="5" class="card-img-top" />
+                <div class="card-body">
                   <h4>5</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/6.jfif" alt="6" class="card-img-top">
-              <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img src="./assets/img/6.jfif" alt="6" class="card-img-top" />
+                <div class="card-body">
                   <h4>6</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-      </div>   
-    </div>  
-  </div>
-</section>
-
-
-<!-- ........................ PROYECTOS A FUTURO SECTION CONTENT ........................ -->
-<section class="smalli bg-light-blue titular" id="futuro">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-15 pt-30">OBRAS EN EJECUCIÓN Y EN PROYECTO</h1>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="smalli bg-dark-blue subtitular">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-4 mb-0 pt-0">LISTADO DE OBRAS</h1>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- CAROUSEL PROYECTOS A FUTURO-->
-<section>
-  <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="owl-carousel owl-theme">
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-        <div class="item mb-4" >
-          <div class="card border-0">
-            <img src="./assets/img/icono lekta.png" alt="1" class="card-img-top">
-              <div class="card-body">
-                  <h4>carousel</h4>
-               </div>
-          </div>
-        </div>
-        <!-- Final Items-->
-      </div>   
-    </div>  
-  </div>
-</section>
-<!-- ........................ CONTACTO SECTION CONTENT ........................ -->
-<section class="smalli bg-light-blue titular" id="contacto">
-  <div class="relative container align-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="hs-line-15 pt-30">CONTACTO</h1>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="smalli fondo_seccion">
-  <div class="container relative">
-    <div class="row">
-      <div class="col-sm-3 pt-50 mb-60 mb-sm-30">
-        <div class="contact-item">
-          <div class="ci-title">Dirección</div>
-          <div class="ci-text">Brown 281, Piso 8°, Quilmes</div>
-        </div>
-        <hr class="mb-20">
-        <div class="contact-item">
-          <div class="ci-title">Teléfono</div>
-          <div class="ci-text">00 54 11 4224 0363</div>
-        </div>
-        <hr class="mb-20">
-        <div class="contact-item">
-          <div class="ci-title">E-mail</div>
-          <div class="ci-text"><a href="mailto:info@simonetticonstructora.com">info@simonetticonstructora.com</a><br>Descargar la información como <a href="http://www.simonetticonstructora.com/assets/vCard.vcf" target="_blank">vCard</a></div>
-        </div>
-      </div>
-      <div class="col-sm-9 pt-50 mb-60 mb-sm-30">
-        <p class="text">Complete el formulario y a la brevedad nos pondremos en contacto.</p>
-        <form method="post" class="form contact-form" name="contact_form" id="contact_form" enctype="application/x-www-form-urlencoded">
-          <input id="verisign" type="hidden" name="verisign" value="1b1fa73e00c99c12eca7c88f4972d4ff59a486d1">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="mb-10"><input type="text" name="nombre" id="nombre" class="form-control input-lg" placeholder="NOMBRE Y APELLIDO" maxlength="45"></div>
-              <div class="mb-10"><input type="text" name="email" id="email" class="form-control input-lg" placeholder="E-MAIL" maxlength="45"></div>
-              <div class="mb-20"><input type="text" name="telefono" id="telefono" class="form-control input-lg" placeholder="TELÉFONO" maxlength="25"></div>
-              <p class="form-tip"><i class="fa fa-info-circle" aria-hidden="true"></i> Todos los campos son obligatorios</p>
+                </div>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="mb-20"><textarea name="mensaje" id="mensaje" class="input-lg form-control" rows="6" placeholder="MENSAJE" maxlength="470"></textarea></div>
-              <div class="mb-30 align-right"><button type="submit" value="MENSAJE" class="btn-mod btn-medium">ENVIAR MENSAJE</button></div>
-            </div>
+            <!-- Final Items-->
           </div>
-        </form>
+        </div>
       </div>
-    </div>
-  </div>
-  
-</section>
+    </section>
 
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- ........................ PROYECTOS A FUTURO SECTION CONTENT ........................ -->
+    <section class="smalli bg-light-blue titular" id="futuro">
+      <div class="relative container align-left">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="hs-line-15 pt-30">OBRAS EN EJECUCIÓN Y EN PROYECTO</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="smalli bg-dark-blue subtitular">
+      <div class="relative container align-left">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="hs-line-4 mb-0 pt-0">LISTADO DE OBRAS</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ........................ CAROUSEL PROYECTOS A FUTURO ........................ -->
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="owl-carousel owl-theme">
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+            <div class="item mb-4">
+              <div class="card border-0">
+                <img
+                  src="./assets/img/icono lekta.png"
+                  alt="1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h4>carousel</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Final Items-->
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- let´s include cdn files-->
-<!-- 0. Jquary Cdn .-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- 1. Owl Carousel Min .js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- let´s include cdn files-->
+    <!-- 0. Jquary Cdn .-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- 1. Owl Carousel Min .js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-<script type="text/javascript" src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-</body>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
 </html>

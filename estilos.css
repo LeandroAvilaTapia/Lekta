@@ -1,0 +1,45 @@
+@font-face {font-family: 'Nexa Bold'; src: url('nexa/Nexa Bold.woff') format('woff'), url('nexa/Nexa Bold.ttf') format('truetype'); font-style: normal; font-weight: 700;}
+@font-face {font-family: 'Nexa Light'; src: url('nexa/Nexa Light.woff') format('woff'), url('nexa/Nexa Light.ttf') format('truetype'); font-style: normal; font-weight: 300;}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@300&display=swap');
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+#empresa{
+    padding-top: 59px;
+}
+.card img{
+    background: #FFFFFF;
+    opacity: 0.5;
+}
+/* ---------- FONDO TITULOS ---------- */
+.smalli {width: 100%;display: block;position: relative;overflow: hidden;box-sizing: border-box;}
+.bg-light-blue {background-color: #3377FF;color: #FFFFFF;}
+.bg-dark-blue {background-color: #29a360; color: #FFFFFF;}
+
+/* ---------- TIPOGRAFÃA ---------- */
+p {margin: 0 0 2em 0;}
+.strong {font-family: 'Nexa Bold', sans-serif; font-weight: 700 !important;}
+.text {font-size: 16px; font-weight: 300; color: #666666; line-height: 1.6;}
+.section-text blockquote {margin-top: 0px;}
+blockquote {margin: 0; padding: 0; border: none; background: none; font-style: normal; line-height: 1.7;}
+blockquote p {margin-bottom: 1em; font-size: 20px; font-weight: 300; font-style: normal; line-height: 1.6;}
+.font-alt {font-family: 'Nexa Bold', sans-serif; text-transform: uppercase; letter-spacing: 0.1em;}
+.section-title {margin-bottom: 15px; font-size: 18px; font-weight: 700; text-transform: uppercase; text-align: center; letter-spacing: 0; line-height: 1.6;}
+.france {color: #0080CA;}
+.marino {color: #0A0789;}
+.margen {padding-left: 40px;}
+
+
+@media(max-width: 1920px){
+    .YTPOverlay {background-image: url('trama_iso.png'); background-repeat: no-repeat; background-position: right top; background-color: transparent; background-size: 30%;}
+    .fondo_seccion {background-image: url('trama_iso.png'); background-repeat: no-repeat; background-position: right -192px; background-color: #FFFFFF; background-size: 30%;}
+    .titular {height: 120px; background-image: url('trama_iso.png'), url('bg_titulos.jpg'); background-position: right -72px, top left; background-repeat: no-repeat, repeat-x; background-size: 30% auto, auto;}
+    .subtitular {height: 50px; background-image: url('trama_iso.png'), url('bg_listado.jpg'); background-position: right -192px, top left; background-repeat: no-repeat, repeat-x; background-size: 30% auto, auto;}
+    section > .js-heighty > h2.hs-line-14 {font-size: 16px; padding: 5px; line-height: 16px;}
